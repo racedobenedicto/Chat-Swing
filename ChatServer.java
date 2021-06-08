@@ -37,7 +37,6 @@ public class ChatServer {
     }
 
     private static class Handler implements Runnable {
-
         private Socket socket;
         private BufferedReader in;
         private PrintWriter out;
@@ -55,7 +54,7 @@ public class ChatServer {
 
                 while (true) {
                     out.println("ACCEPT:");
-        System.out.println("ACCEPT:");
+       		    System.out.println("ACCEPT:");
                     name = in.readLine();
                     if (name == null) {
                         return;
