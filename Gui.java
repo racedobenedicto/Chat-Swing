@@ -66,7 +66,6 @@ class Gui {
         nick = new JTextField(30);
         login = new JButton("LOGIN");
         panelEnter = new JPanel();
-
         
         //Add the widgets to the container
         enterFrame.getContentPane().add(BorderLayout.CENTER, panelEnter); //BorderLayout.CENTER, 
@@ -91,8 +90,6 @@ class Gui {
         menu = new JMenuBar();
         users = new JMenu("USERS");
         
-        
-
         //Add the widgets to the container
         chatFrame.getContentPane().add(BorderLayout.CENTER, messageArea);
         chatFrame.getContentPane().add(BorderLayout.SOUTH, panel);
