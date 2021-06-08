@@ -73,7 +73,7 @@ public class ChatClient implements ActionListener {
         
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
     	//final int port=5000;
         //final String host="localhost";
         Gui gui = new Gui(); //Vista
